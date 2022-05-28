@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('image/fundo.jpg');
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.inserir_cd,
+.inserir_dvd,
+.view_cd,
+.view_dvd,
+.button,
+.button_home,
+.button_cad,
+.button_view {
+    width: 90px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(48, 110, 161);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.inserir_cd:hover,
+.inserir_dvd:hover,
+.view_cd:hover,
+.view_dvd:hover,
+.button:hover,
+.button_cad:hover,
+.button_view:hover,
+.button_home:hover {
+    background-color: rgb(43, 122, 226);
+}
+
+.images_first {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.button_cd {
+    display: flex;
+    margin-left: 40px;
+}
+
+.button_dvd {
+    display: flex;
+    margin-right: 40px;
+}
+
+.button_action {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    margin-top: 200px;
+    height: 70px;
+    background-color: rgb(48, 110, 161);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.button_air {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
